@@ -283,6 +283,11 @@ export default function Home() {
 
       <section className="final-cta section-pad"><div><span>POLICY FUND SELF-APPLICATION</span><h2>정책자금 신청의 출발점은<br />한도 조회가 아니라 <em>우리 회사 진단</em>입니다.</h2><p>3분이면 지금 신청할지, 무엇을 보완할지, 어느 기관부터 확인할지 알 수 있습니다.</p><button className="primary light-btn" onClick={goDiagnosis}>무료 진단 다시 시작 <span>→</span></button></div></section>
 
+      <div className="mobile-cta" role="region" aria-label="모바일 빠른 진단">
+        <div><b>우리 회사 정책자금</b><span>무료 · 약 3분</span></div>
+        <button type="button" onClick={goDiagnosis}>진단 시작 <span>→</span></button>
+      </div>
+
       <footer><div className="footer-brand"><img className="footer-logo" src="/keve-logo.jpg" alt="한국기업가치평가원" /></div><p>대표 김성민 · 대표번호 1844-0285</p><p className="disclaimer">본 진단은 내부 판단 참고용 사전 진단이며, 최종 승인은 해당 기관의 심사 결과에 따릅니다. 금리·한도·요건은 신청 시점에 해당 기관의 최신 공고로 재확인해야 합니다.</p><small>© 2026 Korea Enterprise Value Evaluation Co., Ltd. All rights reserved.</small></footer>
     </main>
   );
