@@ -22,11 +22,22 @@ npm install
 npm run dev
 ```
 
-배포용 빌드는 다음 명령으로 확인합니다.
+배포용 Next.js 빌드는 다음 명령으로 확인합니다.
 
 ```bash
 npm run build
 ```
+
+## Vercel 배포
+
+GitHub 저장소를 Vercel 프로젝트로 가져온 뒤 아래 설정을 사용합니다.
+
+- Framework Preset: `Next.js`
+- Root Directory: `.`
+- Build Command: `npm run build`
+- Output Directory: 비워 두기
+
+기존 Vercel 프로젝트를 사용한다면 설정을 저장한 후 최신 커밋으로 다시 배포합니다.
 
 ## 사이트
 
